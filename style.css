@@ -1,5 +1,7 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 12px;
     max-width: 960px;
     margin: auto;
@@ -23,7 +25,7 @@ h3 {
 
 main { 
     display: grid;
-    grid-template-columns: 47% 53%;
+    grid-template-columns: 40% 60%;
     margin-top: 3em;
 }
 header {
@@ -51,8 +53,11 @@ hr {
     background-color: lightgray;
     height: 1px;
 }
+ul{
+    padding: 0 15px;
+}
 
-h1, h2, h3 {
+h1, h2 {
     font-weight: 100;
     margin-bottom: 0;
 }
